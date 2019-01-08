@@ -15,6 +15,7 @@ https://github.com/booms8/Pystromo
 
 Nice GUI program but no macro support
 https://sites.google.com/site/keyboardingmaster/
+  -Install file is over 150MB so I couldn't upload it
 
 The Belkin and Razer series of gameboards do not have key re-binding support with the Openrazer project,
 though most of the Razer full keyboards do, and the project has active development. 2018-01-07
