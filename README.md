@@ -6,6 +6,7 @@ Both use config files (.map) to reassign keys.
 Original Pystromo 0.6.0 links
 
 -https://launchpad.net/pystromo
+
 -https://github.com/byrongibson/Pystromo
   - Supports macros, easy to configure!
   - Fails to work right on Ubuntu 18.04 but works great on 16.04 (help?)
@@ -13,11 +14,14 @@ Original Pystromo 0.6.0 links
 
 ==========
 Supposedly updated to work with Python3, but it errors with unable to find Python modules
+
 https://github.com/booms8/Pystromo
 
 ==========
 Nice GUI program but no macro support
+
 https://sites.google.com/site/keyboardingmaster/
+
   -Install file is over 150MB so I couldn't upload it
 
 The Belkin and Razer series of gameboards do not have key re-binding support with the Openrazer project,
