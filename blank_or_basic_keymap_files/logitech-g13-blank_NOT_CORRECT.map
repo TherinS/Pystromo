@@ -1,0 +1,41 @@
+[Device:g13]
+vendor=0x046d
+product=0xc21c
+
+[Map:g13]
+# top row
+KEY_TAB:
+KEY_Q:
+KEY_W:
+KEY_E:
+KEY_R:
+
+# middle row
+KEY_CAPSLOCK:
+KEY_A:
+KEY_S:
+KEY_D:
+KEY_F:
+
+# bottom row
+KEY_LEFTSHIFT:
+KEY_Z:
+KEY_X:
+KEY_C:
+KEY_V:
+
+# push button
+KEY_LEFTALT:
+
+# d-pad - up towards push button is left arrow then clockwise
+KEY_LEFT:
+KEY_UP:
+KEY_RIGHT:
+KEY_DOWN:
+
+# space button
+KEY_SPACE:
+
+
+
+

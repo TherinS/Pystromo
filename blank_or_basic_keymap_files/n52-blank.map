@@ -1,0 +1,43 @@
+# Nostromo N52 Speedpad
+[Device:n52]
+vendor=0x050d
+product=0x0815
+
+[Map:n52]
+#Top row, from left
+KEY_TAB:
+KEY_Q:
+KEY_W:
+KEY_E:
+KEY_R:
+
+#Middle row, from left
+KEY_CAPSLOCK:
+KEY_A:
+KEY_S:
+KEY_D:
+KEY_F:
+
+#Bottom row, from left
+KEY_LEFTSHIFT:
+KEY_Z:
+KEY_X:
+KEY_C:
+
+#Wheel (acts as mouse wheel)
+REL_WHEEL>=
+# Remap the negative wheel motion to "-"
+REL_WHEEL<=
+BTN_MIDDLE:
+
+#D-Pad - "up" is more like forward
+KEY_UP:
+KEY_LEFT:
+KEY_DOWN:
+KEY_RIGHT:
+
+#orange button
+KEY_LEFTALT:
+
+#button under thumb
+KEY_SPACE:

@@ -1,0 +1,37 @@
+[Device:tartarus]
+vendor=0x1532
+product=0x0201
+
+[Map:tartarus]
+# top row
+KEY_TAB:
+KEY_Q:
+KEY_W:
+KEY_E:
+KEY_R:
+
+# middle row
+KEY_CAPSLOCK:
+KEY_A:
+KEY_S:
+KEY_D:
+KEY_F:
+
+# bottom row
+KEY_LEFTSHIFT:
+KEY_Z:
+KEY_X:
+KEY_C:
+KEY_V:
+
+# push button
+KEY_LEFTALT:
+
+# d-pad - up towards push button is left arrow then clockwise
+KEY_LEFT:
+KEY_UP:
+KEY_RIGHT:
+KEY_DOWN:
+
+# space button
+KEY_SPACE:

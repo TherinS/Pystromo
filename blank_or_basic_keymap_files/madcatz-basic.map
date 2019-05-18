@@ -1,0 +1,15 @@
+[Device: Madcatz controller]
+vendor=0x1bad
+product=0xf016
+
+# test with the following in terminal
+# cd ~/.config/pystromo
+# ./pystromo-remap.py -m madcatz-basic.map -vv > ~/Documents/madcatzgrab.txt
+
+[Map: Madcatz controller]
+# D-pad  left=(-1 active) right=(1 active) up=(-1 active) down=(1 active)
+ABS_HAT0X<0:KEY_L
+ABS_HAT0X>0:KEY_R
+ABS_HAT0Y<0:KEY_U
+ABS_HAT0Y>0:KEY_D
+
