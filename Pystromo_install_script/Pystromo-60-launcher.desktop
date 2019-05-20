@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Pystromo map loader
+Comment=Load a map file for the Nostromo device family
+Exec=/home/steveum-ssd/.config/caja/scripts/Pystromo_60-profile-picker-caja-v3.sh &
+Icon=/home/steveum-ssd/Pictures/icons/pystromo/nostromo-001.jpeg
+Terminal=false
+Type=Application
+Categories=Game;
+Name[en_US]=Pystromo-60-launcher.desktop
