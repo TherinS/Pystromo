@@ -1,0 +1,37 @@
+This is a list of the identifier codes for various USB devices
+which is returned when you run the 'lsusb' command on Linux.
+
+	== Razer ==
+--------------------
+Tartarus speedpad					= 1532:0201
+Mamba mouse							= 1532:000f
+
+	== Belkin ==
+--------------------
+Nostromo n52						= 050d:0815
+Nostromo n50						= 050d:0805
+
+	== Logitech ==
+--------------------
+MX510 mouse							= 046d:c01d
+H390 headset						= 046d:0a44
+
+    == DualShock controllers ==
+--------------------------------
+DualShock 4                         = 054c:09cc
+
+    == Saitek ==
+----------------
+P2500 Rumble Gamepad                = 06a3:ff0c
+
+    = Genius ==
+---------------
+KB-21e Scroll Keyboard              = 04f2:0111
+
+    == Ami ==
+-------------
+Hand Track 3-button off table mouse = 0f62:1001
+
+    == Dell ==
+--------------
+Dell Computer Corp. Keyboard        = 413c:2003

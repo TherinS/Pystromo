@@ -1,0 +1,114 @@
+
+-----
+Raumkraut (raumkraut) said on 2008-10-15: 	#2
+
+If you use Pystromo to remap, say, "e" to repeatedly press "1" every 200ms by using:
+KEY_E: KEY_1, 200
+Pystromo will send individual KEYUP and KEYDOWN events for the "1" key to Linux every 200ms. As far as Linux is concerned, you are actually pressing and releasing "1" every 200ms, so your desktop settings for key-repeat won't come into it.
+
+You will be able to see this evidenced in the game's chat, or indeed any other text-entry location, in that you will only get a single "1" character every 200ms. You could change the delay to 1000 (1 second) if you want to make it absolutely plain that it's Pystromo doing the repeating!
+
+-----
+Lighttitan (dadicus) said on 2008-10-15: 	#3
+
+HAHA! That is awesome! It sounds like it can do EVERYTHING I want it too!
+
+Thank you SOOOOOOOOOO much for this program!!!
+
+I am having a problem getting it to work with my Nostromo for some reason. I have the config file setup and have it set to run whenever wine or wow.exe runs and it does load it up, I can see it in my system processes... but for some reason it fails to actually convert my nostromo keys. I have included my config file for your review if you have the time...
+
+I will go through the Readme file again to see if I missed something and try to do all the commands again.
+
+__________________________________________________________________________
+
+# This file contains demonstration devices and key re-mappings.
+
+########################################
+## First we must define which devices to 'grab'
+
+# Each [Device:*] section indicates we should grab any input from
+# devices which match certain key=value pairs inside that section.
+# The string after the colon will be used as the device ID, and should
+# be unique. Please keep your device IDs to alpha-numeric characters,
+# underscore (_), and minus (-). I may cry if you don't.
+# Latterly defined [Device] sections will override previously defined
+# [Device] sections with the same ID.
+# Valid keys for device-matching are:
+# name (string)
+# bus (int); see constants.py:BUS_* for valid bus values.
+# vendor (int)
+# product (int)
+# version (int)
+
+# Nostromo n52
+[Device:n52]
+vendor=0x050d
+product=0x0815
+
+########################################
+## Now we can specify which inputs to remap
+
+# Mappings within this default section apply to all grabbed devices.
+[Map:n52]
+
+# A remapping statement consists of two input:output halves, seperated by a
+# colon or equals sign. Whitespace is ignored.
+# See constants.py for possible values for the in and out-put keys.
+# If a remapping is specified more than once, the latter definition will rule.
+
+#The following is Normal shift state keys.
+KEY_R:KEY_4, 200
+KEY_E:KEY_3, 200
+KEY_W:KEY_2, 200
+KEY_Q:KEY_1, 200
+KEY_F:KEY_8, 200
+KEY_D:KEY_7, 200
+KEY_S:KEY_6, 200
+KEY_A:KEY_5
+KEY_C:KEY_EQUAL, 200
+KEY_X:KEY_MINUS, 200
+KEY_Z:KEY_0, 200
+
+#This is the shift state configuration section. It will show red, blue and green configurations.
+KEY_CAPSLOCK:LED_NUML
+#This first line above will light the red LED whenever the Capslock key is used.
+KEY_LEFTSHIFT:LED_CAPSL
+#This line above will light the green LED whenever the Left Shift key is used.
+KEY_LEFTALT:LED_SCROLLL
+#The line above will light the blue LED whenever the Left Alt (orange button) is used.
+
+[Map:n52 + LED_NUML]
+#The above line with cause all following configurations to only apply when the red LED is light.
+
+KEY_R:KEY_KP4, 200
+KEY_E:KEY_KP3, 200
+KEY_W:KEY_KP2, 200
+KEY_Q:KEY_KP1, 200
+KEY_F:KEY_KP8, 200
+KEY_D:KEY_KP7, 200
+KEY_S:KEY_KP6, 200
+KEY_A:KEY_KP5, 200
+KEY_C:KEY_KPSLASH, 200
+KEY_X:KEY_KPMINUS, 200
+KEY_Z:KEY_KPPLUS, 200
+
+[Map:n52 + LED_CAPSL]
+#The above line with cause all following configurations to only apply when the green LED is light.
+
+KEY_R:KEY_F5, 200
+KEY_E:KEY_F4, 200
+KEY_W:KEY_F3, 200
+KEY_Q:KEY_F2, 200
+KEY_F:KEY_F9
+KEY_D:KEY_F8, 200
+KEY_S:KEY_F7, 200
+KEY_A:KEY_F6, 200
+KEY_C:KEY_F12, 200
+KEY_X:KEY_F11, 200
+KEY_Z:KEY_F10, 200
+
+_____________________________________________________________________
+
+I used the vendor and product number from the test.map file you had in the Pystromo config folder. Would the vendor and product number be different for each persons Nostromo? If so, how do I find out what mine is?
+
+The python process in my System processes says "/home/username/.pystromo/trunk/remapper.py -m config/Wow.map"
