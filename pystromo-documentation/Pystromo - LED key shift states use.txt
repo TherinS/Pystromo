@@ -117,6 +117,9 @@ KEY_Z:KEY_F10, 200
 
 _____________________________________________________________________
 
-I used the vendor and product number from the test.map file you had in the Pystromo config folder. Would the vendor and product number be different for each persons Nostromo? If so, how do I find out what mine is?
+I used the vendor and product number from the test.map file you had in the Pystromo config
+folder. Would the vendor and product number be different for each persons Nostromo? If so,
+how do I find out what mine is?
 
-The python process in my System processes says "/home/username/.pystromo/trunk/remapper.py -m config/Wow.map"
+The python process in my System processes says
+"/home/username/.pystromo/trunk/remapper.py -m config/Wow.map"
