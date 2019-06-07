@@ -70,8 +70,8 @@ in the .map file.  If all went well it should be outputting your programmed keys
 
 *If this does not cause your device to use the keys you programmed to
 it, find the python process in your System Monitor and kill it, then run the
-command in step 11 again but insert 'sudo' before the command.  Running it as
-sudo should not be necessary, but the reason it wouldn’t run without sudo has
+command in step 11 again.  If it STILL does not work, insert 'sudo' before the command.
+Running it as sudo should NOT be necessary, but the reason it wouldn’t run without sudo has
 something to do with the .rules file.  Normally you won't need to run this as sudo.
 
 14. If all is going well up to this point, do steps 5-7 untill all the keys you
