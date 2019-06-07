@@ -1,7 +1,4 @@
 
------
-Raumkraut (raumkraut) said on 2008-10-15: 	#2
-
 If you use Pystromo to remap, say, "e" to repeatedly press "1" every 200ms by using:
 KEY_E: KEY_1, 200
 Pystromo will send individual KEYUP and KEYDOWN events for the "1" key to Linux every 200ms.
@@ -12,20 +9,6 @@ You will be able to see this evidenced in the game's chat, or indeed any other
 text-entry location, in that you will only get a single "1" character every 200ms.
 You could change the delay to 1000 (1 second) if you want to make it absolutely plain
 that it's Pystromo doing the repeating!
-
------
-Lighttitan (dadicus) said on 2008-10-15: 	#3
-
-HAHA! That is awesome! It sounds like it can do EVERYTHING I want it too!
-
-Thank you SOOOOOOOOOO much for this program!!!
-
-I am having a problem getting it to work with my Nostromo for some reason. I have the
-config file setup and have it set to run whenever wine or wow.exe runs and it does load
-it up, I can see it in my system processes... but for some reason it fails to actually
-convert my nostromo keys. I have included my config file for your review if you have the time...
-
-I will go through the Readme file again to see if I missed something and try to do all the commands again.
 
 __________________________________________________________________________
 
@@ -116,10 +99,3 @@ KEY_X:KEY_F11, 200
 KEY_Z:KEY_F10, 200
 
 _____________________________________________________________________
-
-I used the vendor and product number from the test.map file you had in the Pystromo config
-folder. Would the vendor and product number be different for each persons Nostromo? If so,
-how do I find out what mine is?
-
-The python process in my System processes says
-"/home/username/.pystromo/trunk/remapper.py -m config/Wow.map"
