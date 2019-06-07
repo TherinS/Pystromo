@@ -8,7 +8,7 @@
 # Set the name in quotes below to the current user, which
 # you can find by typing "echo $USER" into terminal, no quotes,
 # or replace 'guest' with the username you are installing for.
-myuser="steveum-ssd"
+myuser="guest"
 echo $myuser
 # Create pystromo program folder path if it does not exist (-p)
 # and untar the pystromo.tar.gz to that folder.
