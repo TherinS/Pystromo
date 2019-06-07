@@ -3,35 +3,37 @@ which is returned when you run the 'lsusb' command on Linux.
 
 	== Razer ==
 --------------------
-Tartarus speedpad					= 1532:0201
-Mamba mouse							= 1532:000f
+Tartarus speedpad				= 1532:0201
+Mamba mouse					= 1532:000f
 
 	== Belkin ==
 --------------------
-Nostromo n52						= 050d:0815
-Nostromo n50						= 050d:0805
+Nostromo n52					= 050d:0815
+Nostromo n50					= 050d:0805
 
 	== Logitech ==
 --------------------
-MX510 mouse							= 046d:c01d
-H390 headset						= 046d:0a44
+MX510 mouse					= 046d:c01d
+H390 headset					= 046d:0a44
 
-    == DualShock controllers ==
+	== DualShock controllers ==
 --------------------------------
-DualShock 4                         = 054c:09cc
+DualShock 4                         		= 054c:09cc
 
-    == Saitek ==
+	== Saitek ==
 ----------------
-P2500 Rumble Gamepad                = 06a3:ff0c
+P2500 Rumble Gamepad                		= 06a3:ff0c
 
-    = Genius ==
+	= Genius ==
 ---------------
-KB-21e Scroll Keyboard              = 04f2:0111
+KB-21e Scroll Keyboard              		= 04f2:0111
 
-    == Ami ==
+	== Ami ==
 -------------
-Hand Track 3-button off table mouse = 0f62:1001
+Hand Track 3-button off table mouse 		= 0f62:1001
 
-    == Dell ==
+	== Dell ==
 --------------
-Dell Computer Corp. Keyboard        = 413c:2003
+Dell Computer Corp. Keyboard        		= 413c:2003
+
+Feel free to suggest more USB IDs in the "issues" section.
