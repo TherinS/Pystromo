@@ -21,7 +21,7 @@ nostromo-001.jpeg
 	You may need to make it executable first:
 	$ sudo chmod +x pystromo_60_install_v2.sh
 
-To create a launcher in Application menus:
+To create a launcher in Application menus (optional):
 4)Copy Pystromo-60-launcher.desktop to $HOME/.local/share/applications
 	-You may need to create the 'applications' folder first:
     $ mkdir -p $HOME/.local/share/applications
@@ -29,7 +29,7 @@ To create a launcher in Application menus:
 	-You may need to make it executable:
 	$ sudo chmod +x $HOME/.local/share/applications/Pystromo-60-launcher.desktop
 
-To create a right-click script launcher in Caja for the map picker:
+To create a right-click script launcher in Caja for the map picker (optional):
 (Edit the path as necessary for your file manager)
 5)Copy Pystromo-60-map-picker-v3.sh to $HOME/.config/caja/scripts
     $ mkdir -p $HOME/.config/caja/scripts
@@ -37,7 +37,7 @@ To create a right-click script launcher in Caja for the map picker:
 	-You may need to make it executable with:
 	$ sudo chmod +x $HOME/.config/caja/scripts/Pystromo-60-map-picker-v3.sh
 
-For the Application menu to display an icon:
+For the Application menu to display an icon (recommended if you created a launcher):
 6)Copy nostromo-001.jpeg to
     $HOME/Pictures/icons
 	-You may need to create the 'icons' folder first:
