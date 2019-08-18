@@ -211,6 +211,3 @@ ABS_Y@113~143:None
 ABS_X:None
 BTN_THUMB2+ABS_X@0~112: REL_X@-10~0,None
 BTN_THUMB2+ABS_X@144~255: REL_X@0~10,None
-
-
-# I suspect a GUI for all this stuff may be forthcoming at some point.
