@@ -1,7 +1,11 @@
+2019-08-17
 Use this as a guide to install pystromo-0.6.0.tar.gz
 
-        ** for Ubuntu MATE 16.04 **
-Put the following files into a folder together:
+    ** Assumes Caja file manager is installed **
+    Ubuntu MATE 16.04 and 18.04
+    Linux Mint MATE
+
+-Put the following files into a folder together:
 pystromo-0.6.0.tar.gz
 pystromo_60_install_v2.sh
 Pystromo-60-launcher.desktop
@@ -21,7 +25,7 @@ nostromo-001.jpeg
 	You may need to make it executable first:
 	$ sudo chmod +x pystromo_60_install_v2.sh
 
-To create a launcher in Application menus (optional):
+To create a launcher in Application menus:
 4)Copy Pystromo-60-launcher.desktop to $HOME/.local/share/applications
 	-You may need to create the 'applications' folder first:
     $ mkdir -p $HOME/.local/share/applications
@@ -29,15 +33,15 @@ To create a launcher in Application menus (optional):
 	-You may need to make it executable:
 	$ sudo chmod +x $HOME/.local/share/applications/Pystromo-60-launcher.desktop
 
-To create a right-click script launcher in Caja for the map picker (optional):
-(Edit the path as necessary for your file manager)
+To create a right-click script launcher in Caja for the map picker:
+(**Edit the path as necessary for your file manager**)
 5)Copy Pystromo-60-map-picker-v3.sh to $HOME/.config/caja/scripts
     $ mkdir -p $HOME/.config/caja/scripts
     $ cp Pystromo-60-map-picker-v3.sh $HOME/.config/caja/scripts
 	-You may need to make it executable with:
 	$ sudo chmod +x $HOME/.config/caja/scripts/Pystromo-60-map-picker-v3.sh
 
-For the Application menu to display an icon (recommended if you created a launcher):
+For the Application menu to display an icon:
 6)Copy nostromo-001.jpeg to
     $HOME/Pictures/icons
 	-You may need to create the 'icons' folder first:
