@@ -12,6 +12,7 @@ no keypresses do anything on Ubuntu 16.04 or 18.04.  There are other projects fo
 Currently, this space is just to corral various links to files pertaining to the use of
 the Belkin Nostromo or Razer series of gameboards.
 
+==========
 **Some details about Pystromo:
 
 -is a user-space program (does not require sudo to run).
@@ -34,6 +35,7 @@ the Belkin Nostromo or Razer series of gameboards.
 
 -has macro support, supposedly of unlimited length, though I've rarely used macros with the device.
 
+==========
 
 
 Original Pystromo 0.6.0 links
