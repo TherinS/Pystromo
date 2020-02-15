@@ -1,0 +1,87 @@
+How to configure .map files to use with Pystromo.
+
+Assuming you have either installed via the manual instructions or used the
+install script, follow the next steps to create the .map files for your USB
+device to remap keys/inputs using Pystromo.
+
+-These instructions will assume you installed Pystromo to ~$HOME/software/
+and not to ~/.config like the original instructions suggest.  Adjust all paths
+as applicable for your installation.
+
+1. Plug in your USB device and get the USB identifier codes for it.  The numbers
+you want to look for are the two 4-digit numbers separated by a colon.  In this
+example, it is the numbers 1532:0201, which are the manufacturer code followed
+by the device code.  The specific device shown is a Razer Tartarus game board.
+    $ lsusb
+    Bus 002 Device 004: ID 1532:0201 Razer USA, Ltd
+
+2. Navigate to the folder where the .map file is to be located and create a new
+empty file.  I recommend in the same directory you installed Pystromo to under
+a "custom_maps" folder.  Example path= /home/<user>/software/pystromo/custom_maps.
+Name the file "<device-game>.map" if you wish (e.g. Tartarus-L4D.map).
+
+3. Open the file in a text editor and enter the following lines:
+
+# <Device Name>         The full name of the device, for your information.
+[Device:tartarus]       Replace "tartarus" with a shortened name of the device.
+vendor=0x1532           Replace "1532" with the vendor code from step 1.
+product=0x0201           Replace "0201" with the device code from step 1.
+
+[Map:Tartarus]          Replace "Tartarus" with a simple name for the device.
+
+4. In a terminal, CD to the Pystromo install directory.
+    $ cd /home/<username>/software/pystromo
+
+5. Here is where you find all the key codes for the device you are making the
+.map file for, including keys with non-visible output like Alt, Tab, or Control.
+In the terminal, enter the following, substituting the path to the map file:
+
+    $ ./pystromo-remap.py -m ./custom_maps/Tartarus-L4D.map -vv
+
+6. Press the button/input of the device and note the returned text in the terminal.
+Near the end of the line will be text similar to this: code='KEY_TAB' .
+
+7. In the .map file you have open, enter the text "KEY_TAB:" without quotes.
+Repeat step 6. and 7. until you have all the inputs listed that you wish to remap.
+If the returned text is e.g. "KEY_a", change the a to uppercase A.
+
+8. Now tell it what keyboard key we want to bind to the device.
+To make the "KEY_TAB" bind to a "1", enter the following in the .map file:
+
+KEY_TAB:KEY_1
+
+This will remap the key on the device that originally acted as a Tab to a number 1.
+
+9. Do this for each key that you want to program. For a list of keys Pystromo can
+understand and bind to your device, open up the constants.py file with a text
+editor. That file is located here:
+
+/path/to/pystromo/lib/constants.py
+
+10. Once you have a few keys configured in the .map file you should test it to
+make sure it is working.  Save the file, stop the process we were running in
+that terminal (via CTRL-C or by closing that terminal window), cd to the pystromo
+install folder and type the following, using the proper path to the map file:
+
+    $ ./pystromo-remap.py -m ./custom_maps/Tartarus-L4D.map
+
+11. Open a text editor and press the keys/buttons on your device that you mapped
+in the .map file.  If all went well it should be outputting your programmed keys!
+
+*If this does not cause your device to use the keys you programmed to
+it, find the python process in your System Monitor and kill it, then run the
+command in step 11 again but insert 'sudo' before the command.  Running it as
+sudo should not be necessary, but the reason it wouldn’t run without sudo has
+something to do with the .rules file.  Normally you won't need to run this as sudo.
+
+14. If all is going well up to this point, do steps 5-7 untill all the keys you
+want to remap are listed in the .map file.  
+
+NOTES:
+-If you put the device key without a keyboard key bound to it (KEY_TAB:) then
+that device key will not have any function.
+
+-If you omit the device key then that key on the device will function as the
+default function of the device.  That is, it will act as if you just plugged the
+device in without any remapping.
+
