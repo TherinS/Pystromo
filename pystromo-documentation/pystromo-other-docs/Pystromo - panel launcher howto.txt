@@ -1,0 +1,27 @@
+This is a step by step procedure about how to add a Pystromo map file picker
+launcher to the top panel and possibly other panels.
+
+
+** Ubuntu MATE **
+
+- Method one (will work for most distros) -
+
+1. Copy the "pystromo.desktop" file to /home/<username>/.local/share/applications
+2. Go into the "Games" menu and right click the launcher and "add to panel"
+
+- Method two (Ubuntu MATE specific) -
+
+1. Right click top panel and choose 'add to panel'.
+2. Select 'Custom Application Launcher' and click Add.
+3. a. Type: Application
+   b. Name: (Name the launcher, i.e. 'Pystromo map chooser'
+   c. Command: this will depend on where the launcher .sh file is located.
+			Mine is in-
+   "/home/steveb/.config/caja/scripts/Pystromo-profile-loader-caja &"
+			Yours may be in another folder, where ever your distro likes
+			to keep its scripts.  In Nautilus, its in-
+	"/home/steveb/.local/share/nautilus/scripts"
+	d. Comment: Whatever you want, like "Load Pystromo keymap"
+4. You may want to choose an icon for the launcher.  A picture of the
+	Nostromo or Razer speedpad would work nicely. I keep a folder 'icons' in
+	my Pictures folder for just this sort of action.
