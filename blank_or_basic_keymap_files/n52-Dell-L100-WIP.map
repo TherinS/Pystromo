@@ -1,0 +1,21 @@
+# Dell L100 keyboard
+[device:Dell L100]
+vendor=0x413c
+product=0x2105
+
+[Map:Dell L100]
+# keypad numbers
+KEY_KP1:KEY_A
+KEY_KP2:KEY_B
+KEY_KP3:KEY_C
+KEY_KP4:KEY_X
+KEY_KP5:KEY_Y
+KEY_KP6:KEY_Z
+KEY_KP7:KEY_J
+KEY_KP8:KEY_K
+KEY_KP9:KEY_L
+
+# Keyboard keys
+KEY_Z:KEY_1
+KEY_LEFTBRACE:
+KEY_RIGHTBRACE:
