@@ -43,8 +43,8 @@ Original Pystromo 0.6.0 links
 -https://launchpad.net/pystromo
 
 -https://github.com/byrongibson/Pystromo
-  - Supports macros, easy to configure!
-  - Fails to work right on Ubuntu 18.04 but works great on 16.04 (help?)
+
+==========  Now the issue:
 
 ==========
 The Python3 version (Pystromo-0.6.1) DOES NOT WORK!  It returns errors with unable to find Python modules, and the conversion to Python3 is incomplete.
