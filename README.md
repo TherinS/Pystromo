@@ -45,7 +45,6 @@ Original Pystromo 0.6.0 links
 -https://github.com/byrongibson/Pystromo
   - Supports macros, easy to configure!
   - Fails to work right on Ubuntu 18.04 but works great on 16.04 (help?)
-  - https://askubuntu.com/questions/1107093/python-script-for-nostromo-razer-tartarus-fails-after-upgrade-to-18-04
 
 ==========
 The Python3 version (Pystromo-0.6.1) DOES NOT WORK!  It returns errors with unable to find Python modules, and the conversion to Python3 is incomplete.
