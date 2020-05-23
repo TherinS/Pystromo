@@ -68,6 +68,8 @@ Pystromo actually DOES run fine, as it shows up as a running process in System M
 
 What happens, or rather does NOT happen, is Pystromo does not output the keybindings from any .map file made for Pystromo.  There is an output test script used to determine what each key or input is called for populating the .map file and that works fine in every distro I've tested (even PCLOS), so that part works.
 
+If you or someone you know can help get this wonderful program working in modern Ubuntu-based distros, PLEASE help!
+
 ==========
 The Python3 version (Pystromo-0.6.1) DOES NOT WORK!  It returns errors with unable to find Python modules, and the conversion to Python3 is incomplete.
 
