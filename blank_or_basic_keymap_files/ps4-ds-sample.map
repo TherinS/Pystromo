@@ -1,0 +1,48 @@
+#Playstation DualShock 4 controller
+[Device:DualShock4]
+vendor=0x054c
+product=0x09cc
+
+[Map:DualShock4]
+#Right buttons, clockwise from top
+BTN_X:KEY_1
+BTN_C:KEY_2
+BTN_B:KEY_3
+BTN_A:KEY_4
+
+#Bumper buttons L and R
+BTN_Y:KEY_5
+BTN_Z:KEY_6
+
+#Triggers L and R
+BTN_TL:KEY_7
+BTN_TR:KEY_8
+
+# Left stick press down
+BTN_SELECT:KEY_B
+# Right stick press down
+BTN_START:KEY_T
+
+# Left and right function buttons -share- -option-
+BTN_TL2:KEY_G
+BTN_TR2:KEY_H
+
+# ATTN: keys grab input and repeat, not sure how to correct that
+# Left buttons, up and down
+ABS_HAT0Y:
+# Left buttons, left and right
+ABS_HAT0X:
+
+#Touchpad click
+BTN_THUMBL:KEY_L
+#Touchpad slide touch (both work together somehow)
+#Indicates touching the pad, 1 when active *NOT WORKING*
+#BTN_TOUCH:
+#Indicates sliding finger on pad, 1 when active *NOT WORKING*
+#BTN_TOOL_FINGER:
+
+#unsure what keys these are, likely the left and right sticks
+ABS_RZ:
+ABS_Z:
+ABS_X:
+ABS_Y:
