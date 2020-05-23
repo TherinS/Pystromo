@@ -62,7 +62,7 @@ Pystromo actually DOES run fine, as it shows up as a running process in System M
 
 -Razr Orbweaver Chroma
 
--Sony DualShock 4 controller
+-Sony DualShock 4 controller (plugged in, does not work for me using bluetooth connection)
 
 -Dell basic mouse
 
