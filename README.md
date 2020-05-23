@@ -1,9 +1,9 @@
 # Pystromo
 
-Pystromo is a non-gui key remapping program created in Python2 (not by me), originally for the Belkin Nostromo gameboards, but works with the Razr series and various USB input devices.  It uses the USB ID found by typing
+Pystromo is a non-gui key remapping program created in Python2 (not by me), originally for the Belkin Nostromo gameboards, but works with the Razr series and various USB input devices.  Pystromo is used to bind any keyboard key to the input on any other USB device, thus remapping
+the input function of the device to any key on a keyboard.  It uses the USB ID (found by typing
 $ lsusb
-in the terminal.  Pystromo is used to bind any keyboard key to the input on any other USB device, thus remapping
-the input function of the device to any key on a keyboard.  If the USB device does not respond at all upon first
+in the terminal) to bind a map file to that USB device.  If the USB device does not respond at all upon first
 plugging it in (testing in a text editor should suffice) then Pystromo probably will not remap keys for that device.
 
 For example, the Logitech G13 gameboard is recognized and returns a USB device code of 046d:0a44, but
