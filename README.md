@@ -4,7 +4,7 @@ Pystromo is a non-gui key remapping program created in Python2 (not by me), orig
 the input function of the device to any key on a keyboard.  It uses the USB ID (found by typing
 $ lsusb
 in the terminal) to bind a map file to that USB device.  If the USB device does not respond at all upon first
-plugging it in (testing in a text editor should suffice) then Pystromo probably will not remap keys for that device.
+plugging it in (testing in a text editor should suffice) then Pystromo probably will not remap keys for that device as this is NOT driver software.
 
 For example, the Logitech G13 gameboard is recognized and returns a USB device code of 046d:0a44, but
 no keypresses do anything on Ubuntu 16.04 or 18.04.  There are other projects for the G13 that do work, and Ubuntu 20.04 is supposed to now have a basic native driver for this device.
