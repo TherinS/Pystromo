@@ -1,0 +1,42 @@
+# Razer Orbweaver Chroma
+[Device:Orbweaver]
+vendor=0x1532
+product=0x0207
+
+[Map:Orbweaver]
+# Top row
+KEY_GRAVE:
+KEY_1:
+KEY_2:
+KEY_3:
+KEY_4:
+KEY_TAB:
+
+# Second row
+KEY_Q:
+KEY_W:
+KEY_E:
+KEY_R:
+KEY_CAPSLOCK:
+
+# Third row
+KEY_A:
+KEY_S:
+KEY_D:
+KEY_F:
+KEY_LEFTSHIFT:
+
+# Fourth row
+KEY_Z:
+KEY_X:
+KEY_C:
+KEY_V:
+KEY_LEFTALT:
+
+# D-pad - left is upwards on device and acts as left arrow key - clockwise
+KEY_LEFT:
+KEY_UP:
+KEY_RIGHT:
+KEY_DOWN:
+
+KEY_SPACE:
