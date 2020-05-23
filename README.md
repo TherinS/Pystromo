@@ -17,10 +17,6 @@ the Belkin Nostromo or Razer series of gameboards.
 
 -is a user-space program (does not require sudo to run).
 
--currently only has a functional Python2 version
-
--lacks a gui, but the mapping files are human readable
-
 -can be ran via scripts, terminal, or the right-click script menu
 
 -starts up instantly
@@ -35,6 +31,8 @@ the Belkin Nostromo or Razer series of gameboards.
 
 -has macro support, supposedly of unlimited length, though I've rarely used macros with the device.
 
+-mapping files are human readable
+
 ==========
 
 
@@ -44,7 +42,24 @@ Original Pystromo 0.6.0 links
 
 -https://github.com/byrongibson/Pystromo
 
-==========  Now the issue:
+==========  Now the issues:
+
+-currently only has a functional Python2 version
+
+-lacks a gui
+
+ The Worst Part:
+ 
+Pystromo does not work right for me in Ubuntu 18.04, when it worked great in Ubuntu 16.04 and flavors, even though Python2
+is installed (v 2.7.17), though Python3 is also installed.  However, Pystromo functions right on live disks of Zorin 12, Ubuntu MATE 16.04, and Linux Mint 18.3. I have verified it does not work right on a fresh 18.04 install on a laptop, a live USB version, and my main computer running Ubuntu 18.04.
+
+Pystromo seems to run fine, as it shows up as a running process in System Monitor and it seems to grab the input from any device I use.  Those devices include:
+Belkin Nostromo n50
+Belkin Nostrom n52
+Razr Tartarus
+Razr Orbweaver Chroma
+Sony DualShock 4 controller
+Dell basic mouse
 
 ==========
 The Python3 version (Pystromo-0.6.1) DOES NOT WORK!  It returns errors with unable to find Python modules, and the conversion to Python3 is incomplete.
