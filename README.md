@@ -27,7 +27,7 @@ the Belkin Nostromo or Razer series of gameboards.
 
 -is less than 1MB in size, since all the Python libraries are usually already installed
 
--has alternate key functions. That is, you can program a key to enable a secondary map of the device, with up to 3 different layouts. Maybe it can do more but I've not tried.
+-has alternate key functions for the n50 and n52. That is, you can program a key to enable a secondary map of the device, with up to 3 different layouts. Maybe it can do more but I've not tried.
 
 -has macro support, supposedly of unlimited length, though I've rarely used macros with the device.
 
