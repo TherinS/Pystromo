@@ -66,7 +66,7 @@ Pystromo actually DOES run fine, as it shows up as a running process in System M
 
 -Dell basic mouse
 
-What happens, or rather does NOT happen, is Pystromo does not output the keybindings from any .map file made for Pystromo.  There is an output test script used to determine what each key or input is called for populating the .map file and that works fine in every distro I've tested (even PCLOS), so that part works.
+What happens, or rather does NOT happen, is Pystromo does not output the keybindings from any .map file made for Pystromo.  There is an output test script used to determine what each key or input is called for populating the .map file and that works fine in every distro I've tested (even PCLOS), so that part works.  I suspect the problem lies either because of a kernel change in the way input is processed or a Python2 change that Pystromo relies on.  Having no programming expertise, I'm not sure how to determine if either of those suspicions are correct.
 
 If you or someone you know can help get this wonderful program working in modern Ubuntu-based distros, PLEASE help!
 
