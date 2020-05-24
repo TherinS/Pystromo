@@ -49,10 +49,9 @@ Original Pystromo 0.6.0 links
 
  The Worst Part:
  
-Pystromo does not work right for me in Ubuntu 18.04, when it worked great in Ubuntu 16.04 and flavors. Python2
-is installed (v 2.7.17) alongside Python3.  However, Pystromo functions right on live disks of Zorin 12, Ubuntu MATE 16.04, and Linux Mint 18.3.  I have verified it does not work right on a fresh 18.04 install on a laptop, a live USB version, and my main computer running Ubuntu 18.04.
+Pystromo does not work right for me in Ubuntu 18.04, when it worked great in Ubuntu 16.04 and flavors.  The Ubuntu 18.04-based installs I've tried have Python2  installed (v 2.7.17) alongside Python3.  Pystromo functions right on live disks of Zorin 12, Ubuntu MATE 16.04, and Linux Mint 18.3.  I have verified it does not work right on a fresh 18.04 install on a laptop, a live USB of 18.04, or my main computer running Ubuntu 18.04.
 
-Pystromo actually DOES run fine, as it shows up as a running process in System Monitor and it seems to grab the input from any device I use.  Those devices include:
+Actually, Pystromo DOES run fine, as it shows up as a running process in System Monitor and it seems to grab the input from any device I use.  Those devices include:
 
 -Belkin Nostromo n50
 
@@ -66,7 +65,7 @@ Pystromo actually DOES run fine, as it shows up as a running process in System M
 
 -Dell basic mouse
 
-What happens, or rather does NOT happen, is Pystromo does not output the keybindings from any .map file made for Pystromo.  There is an output test script used to determine what each key or input is called for populating the .map file and that works fine in every distro I've tested (even PCLOS), so that part works.  I suspect the problem lies either because of a kernel change in the way input is processed or a Python2 change that Pystromo relies on.  Having no programming expertise, I'm not sure how to determine if either of those suspicions are correct.
+What happens, or rather does NOT happen, is Pystromo does not output the keybindings from any .map file that worked fine on previous versions of Ubuntu.  There is an output test script used to determine what each key or input is called for populating the .map file and that works fine in every distro I've tested (even PCLOS), so that part works.  I suspect the problem lies either because of a kernel change in the way input is processed or a Python2 change that Pystromo relies on.  Having no programming expertise, I'm not sure how to determine if either of those suspicions are correct.
 
 If you or someone you know can help get this wonderful program working in modern Ubuntu-based distros, PLEASE help!
 
