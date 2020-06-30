@@ -13,7 +13,7 @@ Currently, this space is just to corral various links to files pertaining to the
 the Belkin Nostromo or Razer series of gameboards.
 
 ==========
-**Some details about Pystromo:
+## Some details about Pystromo:
 
 -is a user-space program (does not require sudo to run).
 
@@ -41,7 +41,8 @@ Original Pystromo 0.6.0 links
 
 -https://github.com/byrongibson/Pystromo
 
-==========  Now the issues:
+==========  
+## Now the issues:
 
 -currently only has a functional Python2 version
 
