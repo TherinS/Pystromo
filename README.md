@@ -1,3 +1,4 @@
+# Use Input-remapper instead https://github.com/sezanzeb/input-remapper
 # Pystromo
 
 Pystromo is a non-gui key remapping program created in Python2 (not by me), originally for the Belkin Nostromo gameboards, but works with the Razr series and various USB input devices.  Pystromo is used to bind any keyboard key to the input on any other USB device, thus remapping
